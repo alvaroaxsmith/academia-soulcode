@@ -1,0 +1,43 @@
+.pai{
+display: grid;
+grid-template-rows: 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.telefone{
+grid-row: 1/2;
+grid-column: 1/2;
+}
+
+.format{
+grid-row: 2/3;
+grid-column: 1/2;
+}
+
+.gallery{
+grid-row: 2/3;
+grid-column: 2/3;
+
+    
+}
+
+.review{
+grid-row: 2/3;
+grid-column:3/4;
+
+
+}
+
+.email{
+grid-row:1/2;
+grid-column:4/5;
+
+
+}
+
+.contact{
+grid-row:2/3;
+grid-column: 4/5;
+
+}

@@ -1,0 +1,33 @@
+header, ul, nav {
+    display: flex;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+}
+nav {
+    background-color: #333740;
+    top: 0;
+    left: 0;
+    
+  }
+  li {
+      margin-left: 0.6rem;
+      margin-right: 0.6rem;
+  }
+  li a {
+    display: block;
+    color: white;
+    padding: 0.8rem 4rem 0.8rem 4rem;
+    text-decoration: none;
+  }
+figure {
+    display: inline-flex;
+    
+}
+#img-header {
+
+    margin: 0 0 0 30.5vh;
+}
