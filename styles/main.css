@@ -9,7 +9,6 @@
     height: 65vh;
     width: 150vh;
     justify-content: space-evenly;
-    
 
 }
 
@@ -20,7 +19,7 @@
     
 }
 
-img{
+#img-main {
     width: 100%;
 }
 

@@ -23,7 +23,7 @@ nav {
     padding: 0.8rem 4rem 0.8rem 4rem;
     text-decoration: none;
   }
-figure {
+#figure-header {
     display: inline-flex;
     
 }
