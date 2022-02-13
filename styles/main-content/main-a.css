@@ -1,0 +1,23 @@
+#main{
+    display:flex;
+    height: 65vh;
+    width: 150vh;
+    justify-content: space-evenly;
+
+}
+
+#main p {
+    font-size: 15px;
+    padding-top: 20px;
+    padding-right: 30vh;
+    
+}
+
+#img-main {
+    width: 100%;
+}
+
+
+#main h1{
+    padding-top:20px;
+}

@@ -1,0 +1,47 @@
+.mapacontainer {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+   
+}
+
+.mapa {
+    display: flex;
+    position: relative;
+    justify-content: end;
+    flex-direction: row;
+    border: 0;
+    margin: 0;
+    
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 5%;
+   
+}
+
+.inputcontact {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.56);
+    border-radius: 5px;
+    font-weight: 400px;
+    padding: 2%;
+    width: 300px;
+    cursor:pointer;
+}
+
+.btcontact {
+    background-color: #FF6340;
+    color:white;
+    border-radius: 5px;
+    width: 160px;
+    height: 45px;
+    border: 0;
+    font-size: 15px;
+    cursor: pointer;
+}

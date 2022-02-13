@@ -1,4 +1,4 @@
-header, ul, nav {
+.MenuPrimary, ul, nav {
     display: flex;
 }
 ul {
@@ -7,7 +7,7 @@ ul {
     width: 100%;
     overflow: hidden;
 }
-nav {
+.NavPrimary {
     background-color: #333740;
     top: 0;
     left: 0;
