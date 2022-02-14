@@ -1,0 +1,29 @@
+#main-home {
+    display:flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+#home-text {
+    margin: 5rem;
+}
+
+#home-text h1 {
+    font-size: clamp(3em, 3em + 3vw, 3.5em);
+}
+#home-text p {
+    font-size: clamp(1em, 1em + 1vw, 1.5em);
+}
+
+#home-text {
+    min-width: 35rem;
+    width: 40vw;
+
+}
+#fhome-img {
+    min-width: 40rem;
+    width: 50vw;
+}
+#home-img {
+    width: 100%;
+}

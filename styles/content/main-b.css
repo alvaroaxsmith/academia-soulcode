@@ -1,34 +1,29 @@
-.imagens{
+#section-cards{
     display: flex;
-    background-size: contain;
-    background-position: center;
     justify-content: center;
-    cursor: pointer;
 }
 
 .cards{
     border: 1px solid black;
     background-color: #E5E5E5 ;
     flex-direction: column;
-    margin: 10px;
-    cursor: pointer;
-    
+    margin: 10px;    
 }
 
-.format {
+
+#format {
     text-align: center;
     margin: 10px;
-    
 }
 
-ol h2 {
+ol h3 {
     color: #FF6340;
-    }
-.btn-2 {
+}
+.btn-cards {
     display: flex;
     justify-content: space-between;
 }
-.btcard {
+section figure ol .btn-cards button {
     background-color: #FF6340;
     color:white;
     border-radius: 5px;

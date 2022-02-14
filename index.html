@@ -1,59 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Inicial</title>
+    <title>Home</title>
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header class="MenuPrimary"> 
-            <nav class="NavPrimary">
-                <ul>
-                    <li><a href="/pages/format.html">format</a></li>
-                    <li><a href="index.html">review</a></li>
-                    <li><a href="/pages/contact.html">contact</a></li>
-                </ul>
-                <figure id="figure-header">
-                    <img id="img-header" src="images/header.png" alt="imagem-header">
-                </figure>
-            </nav>
-    </header>
-    <main id="main">
 
-                <section>
-                    <h1>Sobre</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Rem ut eligendi eaque perferendis quisquam maxime atque
-                        excepturi necessitatibus rerum, debitis, expedita enim
-                        architecto dolor odit possimus nihil deleniti, consequatur
-                        magnam!rem
-                    </p>
-                </section>
-                <figure>
-                    <img id="img-main" src="images/about.png" alt="">
-                </figure>
-    </main>
-    <footer>
-    <section class="pai">
-        <div class="telefone">
-            <p><strong> 8 495 646-56-45</strong> </p>
-        </div>
-        <div class="email">
-            <p> <u>info@free-fitness.ru</u> </p>
-        </div>
-        <nav class="NavPrimary">
-            <ul>
-                <li><a href="/pages/format.html">format</a></li>
-                <li><a href="index.html">review</a></li>
-                <li><a href="/pages/contact.html">contact</a></li>
+<body>
+    <header id="header">
+        <nav id="nav-header">
+            <ul class="nav-ul">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="/pages/planos.html">Planos</a></li>
+                <li><a href="/pages/localizacao.html">Localização</a></li>
             </ul>
+            <figure id="figure-header">
+                <img id="img-header" src="images/header.png" alt="imagem-header">
+            </figure>
         </nav>
-    </footer>
+    </header>
+    <main id="main-home">
+
+        <section id="home-text">
+            <h1>SOBRE</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Rem ut eligendi eaque perferendis quisquam maxime atque
+                excepturi necessitatibus rerum, debitis, expedita enim
+                architecto dolor odit possimus nihil deleniti, consequatur
+                magnam!
+            </p>
+        </section>
+        <figure id="fhome-img">
+            <img id="home-img" src="images/about.png" alt="">
+        </figure>
+    </main>
+        <footer id="footer">
+            <article id="contacts">
+                <aside id="phone">
+                    <h2> 8 495 646-56-45</h2>
+                </aside>
+                <aside id="email">
+                    <u>info@free-fitness.ru</u>
+                </aside>
+            </article>
+            <nav id="nav-footer">
+                <ul class="nav-ul">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="/pages/planos.html">Planos</a></li>
+                    <li><a href="/pages/localizacao.html">Localização</a></li>
+                </ul>
+            </nav>
+        </footer>
 </body>
 </html>

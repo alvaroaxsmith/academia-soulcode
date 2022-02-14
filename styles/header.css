@@ -1,33 +1,37 @@
-.MenuPrimary, ul, nav {
+/*
+    class nav-ul responde ao footer também.
+*/
+#header, .nav-ul, #nav-header {
     display: flex;
 }
-ul {
+
+.nav-ul {
     list-style-type: none;
     margin: 0;
     width: 100%;
     overflow: hidden;
 }
-.NavPrimary {
+
+#nav-header {
     background-color: #333740;
     top: 0;
     left: 0;
-    
-  }
-  li {
-      margin-left: 0.6rem;
-      margin-right: 0.6rem;
-  }
-  li a {
+    width: 100%;
+}
+
+.nav-ul li {
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+}
+
+.nav-ul li a {
     display: block;
     color: white;
     padding: 0.8rem 4rem 0.8rem 4rem;
     text-decoration: none;
-  }
-#figure-header {
-    display: inline-flex;
-    
-}
-#img-header {
 
-    margin: 0 0 0 30.5vh;
+}
+
+#figure-header {
+    display: inline-flex; 
 }
