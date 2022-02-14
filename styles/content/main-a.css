@@ -1,7 +1,8 @@
 #main-home {
     display:flex;
     justify-content: center;
-    width: 100vw;
+    width: 98.7vw;
+    justify-content: space-between;
 }
 
 #home-text {
@@ -20,7 +21,8 @@
     width: 100%;
 
 }
+
 #home-img {
 
-    width: 45vw;
+    width: 50vw;
 }
