@@ -12,6 +12,7 @@
 
 
 #format {
+    font-size: clamp(1em, 1em + 1vw, 1.5em);
     text-align: center;
     margin: 10px;
 }

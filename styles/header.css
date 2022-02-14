@@ -1,14 +1,20 @@
 /*
-    class nav-ul responde ao footer também.
+class nav-ul responde ao footer também.
 */
 #header, .nav-ul, #nav-header {
     display: flex;
+    
+}
+
+#header {
+
+    justify-content: space-around;
+    font-size: clamp(1em, 1em + 1vw, 1.5em);
 }
 
 .nav-ul {
     list-style-type: none;
     margin: 0;
-    width: 100%;
     overflow: hidden;
 }
 
@@ -16,7 +22,7 @@
     background-color: #333740;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;   
 }
 
 .nav-ul li {
@@ -29,9 +35,7 @@
     color: white;
     padding: 0.8rem 4rem 0.8rem 4rem;
     text-decoration: none;
-
 }
 
-#figure-header {
-    display: inline-flex; 
-}
+
+

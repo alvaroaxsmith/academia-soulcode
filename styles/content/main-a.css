@@ -15,15 +15,12 @@
     font-size: clamp(1em, 1em + 1vw, 1.5em);
 }
 
-#home-text {
-    min-width: 35rem;
-    width: 40vw;
+#home-text, #home-img {
+
+    width: 100%;
 
 }
-#fhome-img {
-    min-width: 40rem;
-    width: 50vw;
-}
 #home-img {
-    width: 100%;
+
+    width: 50vw;
 }

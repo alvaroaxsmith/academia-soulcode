@@ -17,40 +17,46 @@
 }
 
 
-.form {
+#form {
+    font-size: clamp(1em, 1em + 1vw, 1.5em);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     margin: 0;
     padding: 5%;
    
 }
+#form strong {
+    margin: 0 5.2rem 0 0.3rem;
+}
+
 
 
 #phonecontact,  #namecontact{
     width: 80%;
-    margin-bottom: 23px;
-    padding-top: 15px;
-    border-radius: 3px;
+    margin-bottom: 1.5rem;
+    padding: 1rem 0 0 2rem;
+    border-radius: 0.6rem;
+    font-size: clamp(0.5em, 0.5em + 0.5vw, 0.75em);
+}
+#phonecontact {
+    height: 10rem;
 }
 
-#h4-form{
-    margin-bottom: 20px;
+#form strong{
+    margin-bottom: 2rem;
 }
 
 
 .btcontact {
     background-color: #FF6340;
     color:white;
-    border-radius: 5px;
-    width: 160px;
-    height: 45px;
+    border-radius: 0.6rem;
+    width: 7rem;
+    height: 2rem;
     border: 0;
-    font-size: 15px;
     cursor: pointer;
-    align-self: center;
+    align-self: flex-start;
+    font-size: clamp(0.5em, 0.5em + 0.5vw, 0.75em);
+    
 }
-
-
-/* Formulario */

@@ -1,19 +1,19 @@
 #footer {
     display: flex;
     flex-direction: column ;
-    width: 100%;
     justify-content: space-around;
-    margin-top: 30px;
+    margin-top: 5rem;
+    font-size: clamp(1em, 1em + 1vw, 1.5em);
 }
 
 #nav-footer {
-    height: 5rem;
+    bottom: 0;
     align-self: center;
+    
 }
 
 #contacts {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     margin-bottom: 1rem;
 }
