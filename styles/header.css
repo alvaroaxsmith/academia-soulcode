@@ -41,10 +41,14 @@ class nav-ul responde ao footer também.
     text-decoration: none;
 }
 
-.logo{
+.logo {
+    position: absolute;
+    top: 0.5rem;
+    left: 4.5rem;
     background-color: #FF5933;
     color: #FFFFFF;
     border-radius: 3px;
-    padding: 7px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    padding-bottom: 7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: clamp(1em, 1em + 1vw, 1.5em);
 }
