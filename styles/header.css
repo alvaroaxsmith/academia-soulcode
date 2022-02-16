@@ -1,34 +1,38 @@
 /*
 class nav-ul responde ao footer também.
 */
-#header, .nav-ul, #nav-header {
+.header, .nav-ul, #nav-header {
     display: flex;
     
 }
 
-#header {
+.header {
 
     justify-content: space-around;
     font-size: clamp(1em, 1em + 1vw, 1.5em);
+    height: 80vh;
+    background-color: #333740;
+    background-image: url(../images/header.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    
+
 }
 
 .nav-ul {
     list-style-type: none;
     margin: 0;
     overflow: hidden;
+    padding-left: 0;
 }
 
-#nav-header {
-    background-color: #333740;
+.nav-header {
     top: 0;
     left: 0;
-    width: 100vw;   
+    width: 80vw;   
 }
 
-.nav-ul li {
-    margin-left: 0.6rem;
-    margin-right: 0.6rem;
-}
 
 .nav-ul li a {
     display: block;
@@ -37,5 +41,10 @@ class nav-ul responde ao footer também.
     text-decoration: none;
 }
 
-
-
+.logo{
+    background-color: #FF5933;
+    color: #FFFFFF;
+    border-radius: 3px;
+    padding: 7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}

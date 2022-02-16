@@ -1,4 +1,4 @@
-#footer {
+.footer {
     display: flex;
     flex-direction: column ;
     justify-content: space-around;
@@ -6,19 +6,19 @@
     font-size: clamp(1em, 1em + 1vw, 1.5em);
 }
 
-#nav-footer {
+.nav-footer {
     bottom: 0;
     align-self: center;
     
 }
 
-#contacts {
+.contacts-footer {
     display: flex;
     justify-content: space-around;
     margin-bottom: 1rem;
 }
 
-#nav-footer li a {
+.nav-footer .a-footer {
     display: block;
     color: black;
     padding: 0.8rem 4rem 0.8rem 4rem;
