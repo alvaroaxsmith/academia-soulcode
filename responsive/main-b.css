@@ -1,0 +1,32 @@
+@media(max-width: 910px){
+
+    .cards{
+        background-color: #C4C4C4 ;
+        flex-direction: column;
+        margin: 2.5rem;  
+        margin-bottom: 0;  
+        width: 30vw;
+        min-width: 250px;
+        height: 90%;
+        align-items: stretch;
+        box-shadow: 0.1px 0.1px 10px  #9B9DA1, -0.1px -0.1px 10px  #9B9DA1 ;
+        
+    }
+}
+
+
+@media(max-width: 660px){
+
+    .cards{
+        background-color: #C4C4C4 ;
+        flex-direction: column;
+        margin: 2.5rem;
+        margin-bottom: 0;      
+        width: 50vw;
+        min-width: 250px;
+        height: 90%;
+        align-items: stretch;
+        box-shadow: 0.1px 0.1px 10px  #9B9DA1, -0.1px -0.1px 10px  #9B9DA1 ;
+        
+    }
+}

@@ -4,6 +4,8 @@
 @import url("content/main-a.css");
 @import url("content/main-b.css");
 @import url("content/main-c.css");
+@import url(../responsive/main-b.css);
+@import url(../responsive/main-c.css);
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
 
 

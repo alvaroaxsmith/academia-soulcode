@@ -1,0 +1,23 @@
+@media(max-width: 810px){
+
+    #main-c {
+        display: flex;
+        margin: 0;
+        padding: 0;
+    
+       justify-content: center;
+       flex-direction: column;
+    }
+
+    #mapa {
+        display: flex;
+        border: 0;
+        margin: 0;
+        width: 100vw;
+        height: 50%;
+    }
+    #mapa #iframe {
+        width: 100vw;
+        height: 400px;
+      }
+}

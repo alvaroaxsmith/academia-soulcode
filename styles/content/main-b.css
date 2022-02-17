@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     background-color: #F5F5F5;
+    flex-wrap: wrap;
 
 
 }
@@ -16,9 +17,10 @@ main{
 .cards{
     background-color: #C4C4C4 ;
     flex-direction: column;
-    margin: 20px;    
+    margin: 2.5rem;    
     width: 20vw;
-    height: 60%;
+    min-width: 220px;
+    height: 90%;
     align-items: stretch;
     box-shadow: 0.1px 0.1px 10px  #9B9DA1, -0.1px -0.1px 10px  #9B9DA1 ;
     

@@ -24,3 +24,7 @@
     padding: 0.8rem 4rem 0.8rem 4rem;
     text-decoration: none;
 }
+
+.a-footer:last-child {
+    padding-right: 0;
+}
