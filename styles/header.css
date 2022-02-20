@@ -1,53 +1,60 @@
-/*
-class nav-ul responde ao footer também.
-*/
-.header, .nav-ul, #nav-header {
+ul {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+  
+  a:hover {
+    background: rgba(0, 0, 0, 0.185);
+    border-radius: 4px;
+  }
+  #logo{
+      margin-top: 0.5rem;
+      margin-left: 0.5rem;
+      background-color: #FF5933;
+      color: #FFFFFF;
+      height: fit-content;
+      border-radius: 5px;
+      padding: 8px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 36px;
+  }
+  
+  
+  #header {
+    padding: 1rem;
     display: flex;
-    
-}
-
-.header {
-
-    justify-content: space-around;
-    font-size: clamp(1em, 1em + 1vw, 1.5em);
-    height: 80vh;
+    justify-content: flex-start;
     background-color: #333740;
     background-image: url(../images/header.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
-    
-
-}
-
-.nav-ul {
-    list-style-type: none;
-    margin-top: 33px;
-
-}
-
-.nav-header {
-    top: 0;
-    left: 0;
-    width: 80vw;   
-}
-
-
-.nav-ul .a-header {
-    color: white;
-    padding-right: 3.5rem;
-    text-decoration: none;
-}
-
-
-.logo {
+    height: 80vh;
+  
+  }
+  
+  
+  #menu {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+    margin-left: 40px;
     margin-top: 20px;
-    margin-left: 20px;
-    background-color: #FF5933;
-    color: #FFFFFF;
-    height: fit-content;
-    border-radius: 4px;
-    padding: 7px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 36px;
-}
+  }
+  
+  
+  #menu a {
+    display: block;
+    padding: 0.5rem;
+    margin-right: 30px;
+  }
+  
+  #btn-mobile {
+    display: none;
+  }

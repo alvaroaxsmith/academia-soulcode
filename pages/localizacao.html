@@ -13,15 +13,24 @@
 </head>
 
 <body>
-    <header class="header">
-        <h1 class="logo">SoulGym</h1>
-        <nav class="nav-header">
-            <ul class="nav-ul">
-                <li><a class="a-header" href="../index.html">Home</a></li>
-                <li><a class="a-header" href="/pages/planos.html">Planos</a></li>
-                <li><a class="a-header" href="/pages/localizacao.html">Localização</a></li>
-            </ul>
-        </nav>
+    <header id="header">
+
+        <h1 id="logo" href="">SoulGym</h1>
+
+        <nav id="nav">
+
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                <span id="hamburger"></span>
+              </button>
+
+              <ul id="menu" role="menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="/pages/planos.html">Planos</a></li>
+                <li><a href="/pages/localizacao.html">Localização</a></li>
+              </ul>
+           
+        </nav> 
+        
     </header>
 
     <main id="main-c">
@@ -52,7 +61,7 @@
     <footer class="footer">
         <article class="contacts-footer">
             <aside class="phone">
-                <h2> 8 495 646-56-45</h2>
+                <h3> 8 495 646-56-45</h3>
             </aside>
             <aside class="email">
                 <u>info@free-fitness.ru</u>
@@ -66,6 +75,8 @@
             </ul>
         </nav>
     </footer>
+
+    <script src="../scripts/main.js"></script>
 </body>
 
 </html>

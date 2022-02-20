@@ -19,12 +19,16 @@
 }
 
 .nav-footer .a-footer {
-    display: block;
+    display: inline;
     color: black;
     padding: 0.8rem 4rem 0.8rem 4rem;
     text-decoration: none;
 }
-
+.nav-ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
 .a-footer:last-child {
     padding-right: 0;
 }

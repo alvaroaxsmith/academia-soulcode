@@ -1,0 +1,19 @@
+@media(max-height:650px){
+    .grid{
+        display:grid;
+        grid-template-rows: 400px 300px;
+        grid-template-columns: 1fr 300vh ;
+        grid-template-areas: 
+        'below'
+        'top';
+
+        
+    }
+    section{
+        grid-area:top;
+    }
+    figure{
+        grid-area:below;
+        
+    }
+}

@@ -54,7 +54,7 @@ ol h3 {
     display: flex;
     justify-content: space-between;
 }
-section figure ol .btn-cards button {
+#section-cards figure ol .btn-cards button {
     background-color: #FF6340;
     color:white;
     border-radius: 5px;

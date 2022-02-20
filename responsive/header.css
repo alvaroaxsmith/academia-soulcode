@@ -1,0 +1,137 @@
+/* Funcional, porem o ideal seria alterar a altura usando uma função... verificar isso caso tenhamos tempo */
+
+@media (max-width: 985px) {
+  #header {
+      height: 60vh;
+  }
+}
+
+@media (max-width: 810px) {
+  #header {
+      height: 55vh;
+  }
+}
+
+@media (max-width: 750px) {
+#header {
+    height: 50vh;
+}
+}
+
+@media (max-width: 640px) {
+
+  #header {
+      justify-content: space-between;
+
+  }
+
+  #logo{
+    font-size: 30px;
+
+  }
+  
+#menu {
+  display: block;
+  position: absolute;
+  width: 100%;
+  right: 0px;
+  background-color: #333740;
+  transition: 0.6s;
+  z-index: 1000;
+  height: 0px;
+  visibility: hidden;
+  overflow-y: hidden;
+}
+#nav.active #menu {
+  height: 100vh;
+  visibility: visible;
+  overflow-y: auto;
+}
+#menu a {
+  padding: 1rem 0;
+  margin: 0 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.144);
+}
+#btn-mobile {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  gap: 0.5rem;
+  color: white;
+  margin-top: 19px;
+  position: end;
+}
+#hamburger {
+  border-top: 2px solid;
+  width: 25px;
+}
+#hamburger::after,
+#hamburger::before {
+  content: '';
+  display: block;
+  width: 25px;
+  height: 2px;
+  background: currentColor;
+  margin-top: 5px;
+  transition: 1s;
+  position: relative;
+}
+#nav.active #hamburger {
+  border-top-color: transparent;
+}
+#nav.active #hamburger::before {
+  transform: rotate(135deg);
+}
+#nav.active #hamburger::after {
+  transform: rotate(-135deg);
+  top: -7px;
+}
+
+}
+
+
+
+@media (max-width: 615px) {
+  #header {
+      height: 40vh;
+
+  }
+}
+
+@media (max-width: 560px) {
+  #header {
+      height: 35vh;
+  }
+
+  #logo{
+    font-size: 25px;
+
+  }
+
+  #btn-mobile {
+    margin-top: 13px;
+  }
+}
+
+@media (max-width: 560px) {
+#header {
+    height: 35vh;
+    
+}
+}
+
+@media (max-width: 490px) {
+#header {
+    height: 30vh;
+}
+}
+
+@media (max-width: 430px) {
+#header {
+    height: 25vh;
+}
+}
