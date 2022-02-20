@@ -1,3 +1,4 @@
+/* Já concluido, não alterar */
 .footer {
     display: flex;
     flex-direction: column ;
@@ -15,13 +16,19 @@
 .contacts-footer {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin-bottom: 1rem;
+    color: black;
 }
 
+.contacts-ancora{
+    color: black;
+}
 .nav-footer .a-footer {
     display: inline;
     color: black;
-    padding: 0.8rem 4rem 0.8rem 4rem;
+    padding: 1rem 2rem 1rem 2rem;
+    
     text-decoration: none;
 }
 .nav-ul{
@@ -29,6 +36,5 @@
     text-decoration: none;
     list-style-type: none;
 }
-.a-footer:last-child {
-    padding-right: 0;
-}
+
+

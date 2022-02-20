@@ -1,0 +1,41 @@
+/* Já concluido, não alterar */
+
+.phone{
+    font-size: x-large;
+
+
+}
+.email{
+    font-size: medium;
+}
+
+.nav-footer{
+    font-size:  medium;
+
+}
+
+@media(max-width: 620px){
+
+    #format h1{
+        font-size: larger;
+    }
+
+    #format p{
+        font-size: smaller;
+    }
+
+    .phone{
+        font-size: large;
+    
+    
+    }
+    .email{
+        font-size: small;
+    }
+    
+    .nav-footer{
+        font-size:  small;
+    
+    }
+
+}
