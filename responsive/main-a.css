@@ -1,19 +1,23 @@
-@media(max-height:650px){
-    .grid{
+@media(max-width:686px){
+    #main-home{
         display:grid;
-        grid-template-rows: 400px 300px;
-        grid-template-columns: 1fr 300vh ;
+        grid-template-rows: 50% 50%;
+        grid-template-columns: 100%;
         grid-template-areas: 
-        'below'
-        'top';
+        'text'
+        'img';
+        width: 100%;
+        row-gap: 4px;
+              
 
         
     }
-    section{
-        grid-area:top;
-    }
-    figure{
-        grid-area:below;
+    
+    #home-img{
+        grid-area:img;
+        height: 80%;
+        width: 80%;
+        object-fit: cover;
         
     }
 }

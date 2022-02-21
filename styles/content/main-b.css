@@ -21,7 +21,7 @@ main{
     flex-direction: column;
     margin: 2.5rem;    
     width: 20vw;
-    min-width: 220px;
+    min-width: 250px;
     max-width: 300px;
     height: 90%;
     align-items: stretch;
@@ -67,4 +67,30 @@ ol h3 {
     font-size: 15px;
     justify-content: right;
     cursor: pointer;
+}
+
+
+
+/* css carrossel */
+
+#slider-a, #slider-b, #slider-c {
+    width: 100%;
+    max-width: 500px;
+    height: 250px;
+    max-height: 150px;
+
+    position: relative;
+}
+
+#slider-a img, #slider-b img, #slider-c img{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition:  ease-in-out 1s ;
+}
+
+#slider-a img.selected, #slider-b img.selected, #slider-c img.selected { 
+    opacity: 1;
 }
