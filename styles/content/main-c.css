@@ -3,8 +3,8 @@
     display: flex;
     margin: 0;
     padding: 0;
-
    justify-content: center;
+   height: auto;
 }
 
 #mapa {
@@ -15,6 +15,18 @@
 }
 #mapa #iframe {
     width: 50vw;
+}
+
+#form legend{
+    font-size: clamp(0.8em, 0.8em + 0.5vw, 0.4em);
+    margin-bottom: 20px;
+
+
+}
+
+#form fieldset{
+    border: none;
+
 }
 
 #form {
@@ -56,7 +68,7 @@
     height: 2rem;
     border: 0;
     cursor: pointer;
-    align-self: flex-start;
+    align-self: baseline;
     font-size: clamp(0.5em, 0.5em + 0.5vw, 0.75em);
     
 }
