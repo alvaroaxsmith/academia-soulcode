@@ -1,23 +1,87 @@
-@media(max-width:686px){
-    #main-home{
+@media(max-width: 1024px) {  /* Laptop */
+    #home-img {
+        height: 40rem;
+    }
+}
+@media(max-width: 768px) { /* Mesa digitalizadora */
+    #main-home {
         display:grid;
-        grid-template-rows: 50% 50%;
-        grid-template-columns: 100%;
         grid-template-areas: 
-        'text'
-        'img';
+        "header"
+        "section"
+        "figure"
+        "footer";
         width: 100%;
-        row-gap: 4px;
-              
-
+        padding: 0;
+        padding-left: 12rem;
+        padding-right: 10rem;
+        margin: 0;
         
     }
+
     
-    #home-img{
-        grid-area:img;
-        height: 80%;
-        width: 80%;
-        object-fit: cover;
-        
+    #text-a h1 {
+        font-size: clamp(2em, 2em + 2vw, 2.5em);
+    }
+
+    #text-a p {
+        font-size: clamp(0.8em, 0.8em + 0.8vw, 1.2em);
+    }
+
+    #text-a {
+        grid-area: section;
+        width: 50vw;
+        margin: 0;
+    }
+
+    #fhome-img {
+        grid-area: figure;
+        width: 50vw;
+    }
+    #home-img {
+        margin-top: 1rem;
+        height: 20rem;
+    }
+    
+}
+@media(max-width: 425px) { /* L móvel */
+    #main-home {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    #text-a, #fhome-img {
+        margin-top: 1rem;
+        margin-left: 3.5rem;
+        width: 20rem;
+    }
+    #home-img {
+        margin-top: 1rem;
+        width: 20rem;
+        height: 15rem;
+    }
+}
+@media(max-width:375px) { /* Móvel M */
+    #text-a h1 {
+        font-size: clamp(1em, 1em + 1vw, 1.5em);
+    }
+
+    #text-a p {
+        font-size: clamp(0.6em, 0.6em + 0.6vw, 1em);
+    }
+    #main-home {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    #text-a, #fhome-img {
+        margin-top: 1rem;
+        margin-left: 1.7rem;
+        width: 20rem;
+    }
+    #home-img {
+        margin-top: 1rem;
+        width: 20rem;
+        height: 15rem;
     }
 }
