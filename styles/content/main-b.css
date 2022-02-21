@@ -1,4 +1,10 @@
 /* Já concluido, não alterar */
+main{
+    background-color: #F5F5F5;
+    width: 100%;
+    
+
+}
 
 #section-cards{
     display: flex;
@@ -9,21 +15,16 @@
 
 }
 
-main{
-    background-color: #F5F5F5;
-    width: 100%;
-    
-
-}
 
 .cards{
     background-color: #C4C4C4 ;
+    display: flex;
     flex-direction: column;
     margin: 2.5rem;    
     width: 20vw;
     min-width: 250px;
     max-width: 300px;
-    height: 90%;
+    height: auto;
     align-items: stretch;
     box-shadow: 0.1px 0.1px 10px  #9B9DA1, -0.1px -0.1px 10px  #9B9DA1 ;
     
@@ -49,14 +50,39 @@ main{
     
 }
 
+#format p{ 
+    font-size: clamp(0.8em, 0.8em + 1vw, 1.0em);
+
+}
+
 ol h3 {
     color: #FF6340;
 }
 
-.btn-cards {
-    display: flex;
-    justify-content: space-between;
+.btn-card {
+    background-color: #FF6340;
+    color: white;
+    padding: 5px;
+    width: 80%;
+    margin: 13px 0px 13px 0px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+
 }
+
+.decribe li {
+    list-style-type: none;
+    line-height: 0.9;
+  }
+
+  .txt-card{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+  }
+
+
 #section-cards figure ol .btn-cards button {
     background-color: #FF6340;
     color:white;
@@ -70,10 +96,17 @@ ol h3 {
 }
 
 
+.decribe li{
+    list-style-type: none;
+    font-size: small;
+
+}
+
+
 
 /* css carrossel */
 
-#slider-a, #slider-b, #slider-c {
+.slider-a, .slider-b, .slider-c {
     width: 100%;
     max-width: 500px;
     height: 250px;
@@ -82,7 +115,7 @@ ol h3 {
     position: relative;
 }
 
-#slider-a img, #slider-b img, #slider-c img{
+.slider-a img, .slider-b img, .slider-c img{
     opacity: 0;
     position: absolute;
     width: 100%;
@@ -91,6 +124,6 @@ ol h3 {
     transition:  ease-in-out 1s ;
 }
 
-#slider-a img.selected, #slider-b img.selected, #slider-c img.selected { 
+.slider-a img.selected, .slider-b img.selected, .slider-c img.selected { 
     opacity: 1;
 }
