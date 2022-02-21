@@ -4,26 +4,28 @@ let time = 3000,
     currentImageIndex = 0,
     
     images_C = document.
-            querySelectorAll("#slider-c img")
+            querySelectorAll(".slider-c img")
 
     images_B = document.
-            querySelectorAll("#slider-b img")
+            querySelectorAll(".slider-b img")
 
     images_A = document.
-            querySelectorAll("#slider-a img")
+            querySelectorAll(".slider-a img")
+            
 
-    max = 2;
+    max = 3;
 
 function nextImage() {
-
+    
+    images_A[currentImageIndex]
+        .classList.remove("selected")
+        
     images_C[currentImageIndex]
         .classList.remove("selected")
 
     images_B[currentImageIndex]
         .classList.remove("selected")
 
-    images_A[currentImageIndex]
-        .classList.remove("selected")
 
     currentImageIndex++
 
