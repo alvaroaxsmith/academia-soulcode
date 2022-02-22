@@ -74,3 +74,9 @@
     font-size: clamp(0.5em, 0.5em + 0.5vw, 0.75em);
     
 }
+
+.btcontact:hover{
+    cursor: pointer;
+    background-color: #eb3a1298;
+}
+
