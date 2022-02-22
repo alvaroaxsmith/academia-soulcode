@@ -17,9 +17,13 @@
 
     .cards{
         
-          
+        margin-top: 0;
         width: 50vw;
        
         
+    }
+
+    #format{
+        margin-bottom: 30px;
     }
 }
