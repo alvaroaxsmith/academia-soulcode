@@ -1,73 +1,34 @@
-@media(max-width: 1024px) {  /* Laptop */
-    #home-img {
-        height: 40rem;
-    }
-}
-@media(max-width: 768px) { /* Mesa digitalizadora */
+@media(max-width: 890px) { /* L móvel */
     #main-home {
-        display:grid;
-        grid-template-areas: 
-        "header"
-        "section"
-        "figure"
-        "footer";
-        width: 100%;
-        padding: 0;
-        padding-left: 12rem;
-        padding-right: 10rem;
-        margin: 0;
+
+            display:grid;
+            grid-template-areas: 
+            "section"
+            "figure";
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        justify-content: start;        
+        }
         
-    }
-
     
-    #text-a h1 {
-        font-size: clamp(2em, 2em + 2vw, 2.5em);
-    }
-
-    #text-a p {
-        font-size: clamp(0.8em, 0.8em + 0.8vw, 1.2em);
-    }
-
-    #text-a {
-        grid-area: section;
-        width: 50vw;
-        margin: 0;
-    }
-
-    #fhome-img {
-        grid-area: figure;
-        width: 50vw;
-    }
-    #home-img {
-        margin-top: 1rem;
-        height: 20rem;
-    }
-    
-}
-@media(max-width: 425px) { /* L móvel */
-    #main-home {
-        padding-left: 0rem;
-        padding-right: 0rem;
-    }
 
     #text-a, #fhome-img {
-        margin-top: 1rem;
         margin-left: 3.5rem;
-        width: 20rem;
+        width: 80vw;
     }
     #home-img {
-        margin-top: 1rem;
-        width: 20rem;
-        height: 15rem;
+        width: 40vw;
+        height: 40vw;
     }
 }
-@media(max-width:375px) { /* Móvel M */
+@media(max-width:650px) { /* Móvel M */
     #text-a h1 {
-        font-size: clamp(1em, 1em + 1vw, 1.5em);
+        font-size: clamp(2em, 1em + 1vw, 2.5em);
     }
 
     #text-a p {
-        font-size: clamp(0.6em, 0.6em + 0.6vw, 1em);
+        font-size: clamp(0.6em, 0.6em + 1.6vw, 1em);
     }
     #main-home {
         padding-left: 0rem;
@@ -75,12 +36,10 @@
     }
 
     #text-a, #fhome-img {
-        margin-top: 1rem;
         margin-left: 1.7rem;
-        width: 20rem;
+        width: 80vw;
     }
     #home-img {
-        margin-top: 1rem;
         width: 20rem;
         height: 15rem;
     }
