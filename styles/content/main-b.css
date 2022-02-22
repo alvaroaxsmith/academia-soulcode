@@ -71,6 +71,11 @@ ol h3 {
 
 }
 
+.btn-card:hover{
+    cursor: pointer;
+    background-color: #eb3a1298;
+}
+
 .decribe li {
     list-style-type: none;
     line-height: 0.9;
