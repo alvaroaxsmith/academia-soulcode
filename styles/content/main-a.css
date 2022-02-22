@@ -4,20 +4,21 @@
     width: 100%;
     padding: 0;
     margin: 0;
-    justify-content: space-between;
+    height: auto;
+    margin: 0;
 }
 
 #text-a {
     margin: 3rem;
+    margin-bottom: 2rem;
 }
 
 #text-a h1 {
-    font-size: clamp(3em, 3em + 3vw, 3.5em);
+    font-size: clamp(2em, 2em + 2vw, 2.5em);
 }
 #text-a p {
-    font-size: clamp(1em, 1em + 1vw, 1.5em);
+    font-size: clamp(0.5em, 0.8em + 0.8vw, 1.1em);
     text-align: justify;
-
 }
 
 #text-a {
