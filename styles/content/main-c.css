@@ -55,6 +55,7 @@
     margin-bottom: 1.5rem;
     padding: 1rem 0 0 2rem;
     border-radius: 0.6rem;
+    border: none;
     font-size: clamp(0.5em, 0.5em + 0.5vw, 0.75em);
 }
 
