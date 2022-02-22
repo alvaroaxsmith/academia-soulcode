@@ -59,7 +59,7 @@ Esse projeto foi elaborado durante o bootcamp de FullStack Java da [SoulCode](ht
 - [Egysella Firmo](https://github.com/Egysella)
 - [Giovane Avelino Tiburcio](https://github.com/giovaner10)
 - [Igor Bacellar](https://github.com/Igorbacellar)
-- [Igor Antônio Almeida Santos]()
+- [Igor Antônio Almeida Santos](https://github.com/IgorSC2022)
 - [Isis Ferreira dos Santos](https://github.com/IsisFer)
 - [Luiz Eduardo Leite](https://github.com/LuizEduardoLeite)
 - [Patrick Cavalcante Gomes](https://github.com/tikaoo)
