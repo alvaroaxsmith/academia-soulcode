@@ -13,7 +13,7 @@ let time = 3000,
             querySelectorAll(".slider-a img")
             
 
-    max = 3;
+    max = 6;
 
 function nextImage() {
     
