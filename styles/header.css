@@ -59,3 +59,7 @@ ul {
   #btn-mobile {
     display: none;
   }
+
+    .logo:hover{
+    background-color: #333740;
+  }
