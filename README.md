@@ -70,5 +70,5 @@ Esse projeto foi elaborado durante o bootcamp de FullStack Java da [SoulCode](ht
 <a id="ancora5"></a>
 ## :memo: Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/alvaroaxsmith/projeto-1-soulcode/blob/main/LICENSE) para mais detalhes.
 
