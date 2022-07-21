@@ -35,7 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 <a id="ancora2"></a>
 ## 💻 Projeto
-Esse projeto foi elaborado durante o bootcamp de FullStack Java da [SoulCode](https://soulcodeacademy.org/index.html). A proposta foi construir um site a partir de um [Wireframe no Figma](https://www.figma.com/file/K8m7ZQaPKDHkuDBzGoL8WU/Site?node-id=0%3A1), utilizando apenas HTML, CSS e Javascript, sem a utilização de plugins ou frameworks.
+O projeto foi elaborado durante o bootcamp de FullStack Java da [SoulCode](https://soulcodeacademy.org/index.html). A proposta foi construir um site a partir de um [Wireframe no Figma](https://www.figma.com/file/K8m7ZQaPKDHkuDBzGoL8WU/Site?node-id=0%3A1), utilizando apenas HTML, CSS e Javascript, sem a utilização de plugins ou frameworks.
 
 <strong>Link para o site do projeto: https://academia-soulcode.herokuapp.com/index.html</strong>
 
